@@ -15,7 +15,12 @@ public class TaskMassOne {
         fruits[9] = "Persimmon";
 
         String[] food = Arrays.copyOf(fruits, fruits.length);
-        System.out.println(food[0] + "\n" + food[1] + "\n" + food[2] + "\n" + food[3] + "\n" + food[4] + "\n" + food[5] + "\n" + food[6] + "\n" + food[7] + "\n" + food[8] + "\n" + food[9]);
+//        System.out.println(food[0] + "\n" + food[1] + "\n" + food[2] + "\n" + food[3] + "\n" + food[4] + "\n"
+//                + food[5] + "\n" + food[6] + "\n" + food[7] + "\n" + food[8] + "\n" + food[9]);
 
+        for (int i = 0; i < food.length; i++) {
+            System.out.println(food[i]);
+
+        }
     }
 }
